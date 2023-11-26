@@ -48,7 +48,7 @@ func NewInternalServerError(message string) *RestErr {
 	return &RestErr{
 		Message: message,
 		Err:     "internal server error",
-		Code:    http.StatusInternalServerError	,
+		Code:    http.StatusInternalServerError,
 	}
 }
 
